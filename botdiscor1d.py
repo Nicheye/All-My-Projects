@@ -5,10 +5,10 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-  print('{0.user} заебланился на серваЧОК'.format(client))
+  print('{0.user} зашел'.format(client))
 rep_word = ["niga","nigga","negr","нига","нигга","негр"]
 
-otvetochka = ["+rep","chill chill","it so fucking good","i like it","nice cock"]
+otvetochka = ["+rep","chill chill"]
 img = ['cs.jpg','standoff.jpg','leon.jpg']
 
 @client.event
